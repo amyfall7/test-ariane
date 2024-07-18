@@ -1,33 +1,21 @@
 menu:
--{name:'accueil', url:'/accueil' }
--{name: 'publications', url:'/publications'}
--{name: 'webographie', url:'/webographie'}
--{name: 'membres', url:'/membres'}
--{name:'about', url:'/about'}
+  - name: 'accueil'
+    url: '/accueil'
+  - name: 'publications'
+    url: '/publications'
+  - name: 'webographie'
+    url: '/webographie'
+  - name: 'membres'
+    url: '/membres'
+  - name: 'about'
+    url: '/about'
 
+accueil: []
 
+publications: []
 
+webographie: []
 
+membres: []
 
-
-accueil:
--{
-  }
-
-
-publications:
--{
-
-  }
-webographie:
--{
-
-  }
-
-membres:
--{}
-
-about:
--{
-
-}
+about: []
