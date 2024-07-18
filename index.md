@@ -1,5 +1,5 @@
 ---
-layout: accueil
+layout: home
 name:"home"
 
 ---
