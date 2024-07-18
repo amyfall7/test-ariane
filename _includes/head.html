@@ -1,7 +1,15 @@
-<!DOCTYPE html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ site.github.url }}/assets/libs/bootstrap/bootstrap.min.css">
-  </head>
+<header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">{{ site.title }} {{site.logo}}</span>
+    </a>
+    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+      <span>{{ site.description }}</span>
+    </a>
+  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    {% for item in site.data.settings.menu %}
+      <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</header>
