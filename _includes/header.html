@@ -1,0 +1,9 @@
+<header>
+  <nav class="nav justify-content-center">
+  {% for item in site.data.settings.menu %}
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+  </li>
+  {% endfor %}
+</nav>
+  </header>
