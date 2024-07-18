@@ -1,4 +1,4 @@
 ---
-layout: default
-title: "accueil"
+layout: home
+title: "home"
 ---
